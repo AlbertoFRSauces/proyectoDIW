@@ -13,3 +13,6 @@ Estructura del proyectoDIW
 ## Front end
 - HTML
 - CSS
+
+## Back end
+- PHP 7.4
