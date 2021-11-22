@@ -19,6 +19,6 @@ Estructura del proyectoDIW
 
 ## Entornos
 ### Desarrollo (local)
--  http://192.168.3.107/
+-  http://daw207.sauces.local/proyectoDIW/indexProyectoDIW.php
 ### Explotación (1&1)
 -  http://daw207.ieslossauces.es/proyectoDIW/indexProyectoDIW.php
