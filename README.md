@@ -5,7 +5,7 @@
 
 **Fecha Inicio Proyecto: 15/10/2021**
 
-**Ultima Actualización: 21/11/2021**
+**Ultima Actualización: 12/12/2021**
 
 ## Descripción 
 Estructura del proyectoDIW
@@ -19,6 +19,6 @@ Estructura del proyectoDIW
 
 ## Entornos
 ### Desarrollo (local)
--  http://daw207.sauces.local/proyectoDIW/indexProyectoDIW.php
+-  http://daw207.sauces.local/proyectoDIW
 ### Explotación (1&1)
--  http://daw207.ieslossauces.es/proyectoDIW/indexProyectoDIW.php
+-  http://daw207.ieslossauces.es/proyectoDIW

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica Flex Alberto Fernandez</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: Verdana, sans-serif;
+            }
+            .container{
+                background-image: url("http://picsum.photos/id/901/2440/1080");
+                background-repeat: no-repeat;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .principal{
+                display: flex;
+                flex-flow: row nowrap;
+                width: 800px;
+                height: auto;
+                background-color: rgb(252, 208, 215);
+                padding: 15px;
+                margin-top: 250px;
+                margin-bottom: 250px;
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+            aside{
+                background-color: rgb(51, 51, 51);
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+                justify-content: space-around;
+            }
+            aside div{
+                color: white;
+                margin: 15px;
+                display: flex;
+                flex-flow: row;
+                justify-content: space-around;
+                align-items: center;
+                width: 100%;
+            }
+            aside div img{
+                border-radius: 0.4rem;
+            }
+            main{
+                background-color: white;
+                padding: 15px;
+            }
+            main p{
+                margin-top: 18px;
+                margin-bottom: 18px;
+            }
+            .conjuntoimagenes{
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-around;
+                gap: 8px;
+            }
+            .conjuntoimagenes div img{
+                border-radius: 0.4rem;
+                width: auto;
+                height: auto;
+            }
+            @media (max-width: 768px) {
+                .principal{
+                    margin: 15px;
+                }
+                aside{
+                    order: 2;
+                }
+                aside div{
+                    display: flex;
+                    flex-flow: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 100%;
+                }
+                .conjuntoimagenes{
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: space-around;
+                    gap: 5px;
+                }
+                .conjuntoimagenes div img{
+                    border-radius: 0.4rem;
+                    width: 100%;
+                    height: 128px;
+                }
+            }
+            @media (max-width: 576px) {
+                .principal{
+                    display: flex;
+                    flex-flow: column;
+                    justify-content:flex-start;
+                    align-items: center;
+                    width: 100%;
+                }
+                aside{
+                    order: 2;
+                    width: 100%;
+                }
+                aside div{
+                    color: white;
+                    margin: 0px;
+                }
+                aside div:nth-child(1){
+                    margin: 8px;
+                }
+                aside div{
+                    display: flex;
+                    flex-flow: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="principal">
+                <aside>
+                    <div class="imgasidebig"><img src="http://picsum.photos/id/900/200/200" alt="options"></div>
+                    <div class="imgasidesmall"><img src="http://picsum.photos/id/901/48/48" alt="options"><a>email</a></div>
+                    <div class="imgasidesmall"><img src="http://picsum.photos/id/902/48/48" alt="options"><a>Red social</a></div>
+                    <div class="imgasidesmall"><img src="http://picsum.photos/id/903/48/48" alt="options"><a>educacyl</a></div>
+                </aside>
+                <main>
+                    <h1>El tema que tu quieras con flexbox</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nesciunt dolor quo at 
+                        sunt eius culpa tempora accusantium, tenetur praesentium ipsum maxime consectetur 
+                        nam iusto tempore eveniet nobis quas facilis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nesciunt dolor quo at 
+                        sunt eius culpa tempora accusantium, tenetur praesentium ipsum maxime consectetur 
+                        nam iusto tempore eveniet nobis quas facilis.</p>
+                    <div class="conjuntoimagenes">
+                        <div class="imgmain"><img src="http://picsum.photos/id/904/150/150" alt="options"></div>
+                        <div class="imgmain"><img src="http://picsum.photos/id/905/150/150" alt="options"></div>
+                        <div class="imgmain"><img src="http://picsum.photos/id/906/150/150" alt="options"></div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </body>
+</html>
