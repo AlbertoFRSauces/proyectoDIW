@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica Flex Alberto Fernandez</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: Verdana, sans-serif;
+            }
+            .menu nav{
+                background-color: rgb(106, 75, 218);
+                display: flex;
+                flex-flow: row nowrap;
+                height: auto;
+                justify-content: flex-end;
+                align-items: center;
+            }
+            @media (min-width: 768px) {
+                .menu nav div:nth-child(1){
+                    justify-content: flex-start;
+                    flex: 1;
+                }
+            }
+            
+            .option{
+                color:white;
+                font-weight: bold;
+                padding: 15px;
+            }
+            .option:hover{
+                background-color: rgb(99, 200, 240);
+            }
+            @media (max-width: 768px) {
+                .menu nav{
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+                .menu nav div:nth-child(1){
+                    justify-content: flex-start;
+                    display: none;
+                }
+            }
+            @media (max-width: 576px) {
+                .menu nav{
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                }
+                .option{
+                    border: solid 1px grey;
+                    width: 100%;
+                    text-align: center;
+                }
+                .menu nav div:nth-child(1){
+                    justify-content: flex-end;
+                    display: block;
+                    order: 2;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="menu">
+                <nav>
+                    <div class="option"><p>&#9883;</p></div>
+                    <div class="option"><p>Home</p></div>
+                    <div class="option"><p>Products</p></div>
+                    <div class="option"><p>About</p></div>
+                    <div class="option"><p>Contact</p></div>
+                </nav>
+            </div>
+        </div>
+    </body>
+</html>

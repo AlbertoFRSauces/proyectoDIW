@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica 2-8-2 Alberto Fernandez</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: Verdana, Tahoma, sans-serif;
+            }
+            .contenedor{
+                width: 80vw;
+                margin: 1rem auto;
+            }
+            .contenedor article a{
+                display:block;
+                text-decoration: none;
+                color: rgb(110, 128, 185);
+                background: #bbb;
+
+                padding-left: 0.5rem;
+                font-weight: bold;
+            }
+            .contenedor article p{
+                background: #eee;
+                padding: 0.4rem;
+                display: none;
+            }
+            .contenedor p:target{
+                display: block;
+            }
+            .conenedor2 {
+                width: 600px;
+                height: 700px;
+                margin: 2rem auto;
+                overflow: hidden;
+                position: relative;
+            }
+            .contenedor2 input{
+                display: none;
+            }
+            .contenedor2 input + label{
+                display: block;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                width: 164px;
+                height: 48px;
+                line-height: 48px;
+                text-align: center;
+                text-transform: uppercase;
+                color:white;
+                background-color: teal;
+                font-weight: bold;
+                border-radius: 5px;
+                margin-top: 0.5rem;
+            }
+            .contenedor2 div{
+                position:absolute;
+                background-color:rgba(34, 105, 52, 0.6);
+                width: 80%;
+                height: 70%;
+                top: 140px;
+                /* display: none; */
+                left: -100%;
+                transition: all 0.8s ease-in;
+            }
+            .contenedor2 div label{
+                display:block;
+                color:white;
+                background-color: tomato;
+                line-height: 48px;
+                border-radius: 50%;
+                font-weight: bold;
+                margin: 5px;
+                width: 48px;
+                height: 48px;
+                font-size: 1.5rem;
+                text-align: center;
+                float: right;
+            }
+            .contenedor2 p{
+                position: relative;
+                width: 400px;
+                height: 150px;
+                background-color: grey;
+                font-weight: bold;
+                color: black;
+                padding: 1rem;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .contenedor2 input:first-of-type:checked ~ div{
+                /* display: block; */
+                left:0%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class=contenedor>
+           <article>
+               <a href="#p1">Titulo 1</a>
+                   <p id="p1">T1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem delectus dolor amet eos, cupiditate distinctio, unde laborum reiciendis ratione rem esse hic repellendus deleniti voluptate repellat accusamus, quis nam modi.</p>
+           </article>
+           <article>
+               <a href="#p2">Titulo 2</a>
+                   <p id="p2">T2 Illo deserunt, nam numquam iusto perspiciatis sed ipsum minus fugit, ab non similique reiciendis officiis doloribus, harum at rem. Blanditiis asperiores magni et neque provident. Inventore quo quis rem aperiam!</p>
+           </article>
+           <article>
+               <a href="#p3">Titulo 3</a>
+                   <p id="p3">T3 Quibusdam adipisci molestias velit, doloremque iure quam nihil! Necessitatibus eveniet quidem adipisci quas quisquam. Odit eos possimus dolor, aspernatur temporibus dignissimos inventore nisi ducimus porro deleniti iure magni blanditiis repudiandae.</p>
+           </article>
+           <article>
+            <a href="#a">Cerrar</a>
+        </article>
+        </div>
+        <div class=contenedor2>
+            <h2>Ventana modal con :checked y radio buttons</h2>
+            <input type="radio" id="mostrarmodalopen" name="botonmostrarmodal">
+            <label for="mostrarmodalopen">MOSTRAR MODAL</label>
+            <input type="radio" id="mostrarmodalclose" name="botonmostrarmodal">
+            <div>
+                <label for="mostrarmodalclose" id="close">X</label>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est aspernatur iste non, earum, alias veritatis repellendus quisquam architecto, quos quam consectetur fugit enim nemo dicta minus dolor omnis quasi. Alias.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

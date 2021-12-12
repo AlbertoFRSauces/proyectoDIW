@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 1-1-2 Alberto Fernandez</title>
+    <style>
+        html{font-family: sans-serif; text-align: center;}
+        table{width: 100%;}
+        th{height: 60px;}
+        td:nth-of-type(1){background-color: #FF0000;}
+        td:nth-of-type(2){background-color: #00FF00;}
+        td:nth-of-type(3){background-color: #0000FF;}
+        td:nth-of-type(1):hover{background-color:#00FF00;}
+        td:nth-of-type(2):hover{background-color:#FF0000;}
+        td:nth-of-type(3):hover{background-color: #FFFF00;}
+        .sc{display: none;}
+        td:nth-of-type(1):hover .pr{display: none;}
+        td:nth-of-type(1):hover .sc{display: block;}
+        td:nth-of-type(2):hover .pr{display: none;}
+        td:nth-of-type(2):hover .sc{display: block;}
+        td:nth-of-type(3):hover .pr{display: none;}
+        td:nth-of-type(3):hover .sc{display: block;}
+
+    </style>
+</head>
+<body>
+    <h1>Colores RGB, al pasar el raton por encima muestra el complementario:</h1>
+    <table>
+        <tr>
+            <td>
+                <p class="pr">Color rojo #FF0000</p>
+                <p class="sc">Color verde #00FF00</p>
+            </td>
+            <td>
+                <p class="pr">Color verde #00FF00</p>
+                <p class="sc">Color rojo #FF0000</p>
+            </td>
+            <td>
+                <p class="pr">Color azul #0000FF</p>
+                <p class="sc">Color amarillo #FFFF00</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

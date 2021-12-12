@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica 2-4 Alberto Fernandez</title>
+        <style>
+            *{
+                font-family: sans-serif;
+                box-sizing: border-box;
+            }
+            form{
+                width: 100%;
+                height: 90vh;
+                background: rgb(248, 240, 124);
+            }
+            label{
+                display: block;
+                margin: 5px;
+
+            }
+            input[type="text"],[type="email"]{
+                width: 225px;
+                height: 48px;
+                background-color: rgb(37, 194, 186);
+                border: none;
+                border-radius: .3rem;
+            }
+            #apellidos{
+                background-color: white;
+                border: 2px solid black;
+                width: 290px;
+            }
+            #apellidos:focus{
+                background: violet;
+            }
+            #email{
+                background-color:lime;
+                border: 2px solid black;
+                width: 490px;
+            }
+            #email:invalid{
+                background-color: red;
+            }
+            input:disabled{
+                border: 2px solid rgb(11, 102, 155);
+                background-color: rgb(187, 187, 187);
+            }
+            ::placeholder{
+                color: #666;
+            }
+            #quitarespacio{
+                display: inline;
+            }
+            input[type="numer"]:out-of-range{
+                background-color: red;
+            }
+            :checked{
+                box-shadow: 0px 0px 20px 10px salmon;
+            }
+            input[type="submit"]{
+                width: 128px;
+                height: 48px;
+                background: teal;
+                color:white;
+                border-radius: .3rem;
+            }
+            ul{
+                list-style: none;
+            }
+            ul:nth-child(1) li::before{
+                content: "**";
+                color: red;
+                padding-right: 5px;
+                font-size: 1.5rem;
+            }
+            ul:nth-child(2) li::before{
+                content: url(http://picsum.photos/id/250/16/16);
+                padding-right: 5px;
+            }
+            ul:nth-child(2) li::after{
+                content: url(https://img.icons8.com/40/000000/zoom-in.png);
+                padding-right: 5px;
+            }
+            ul:nth-of-type(3) li:nth-child(even)::before{
+                content: "€€€";
+                color: green;
+                padding-right: 5px;
+            }
+            ul:nth-of-type(3) li:nth-child(odd)::before{
+                content: "$$$";
+                color: coral;
+                padding-right: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class=wrapper>
+            <form action="/p1.php" method="post">
+                <fieldset>
+                    <legend>Pseudo-clases en formularios</legend>
+                    <label>:required</label>
+                    <input type="text" required autofocus placeholder="Nombre" size="30" maxlength="30">
+                    <label>:focus</label>
+                    <input type="text" id="apellidos" placeholder="Apellidos" size="50" maxlength="60">
+                    <label>:valid / :invalid</label>
+                    <input type="email" id="email" placeholder="mail@mail.com">
+                    <label>:disabled</label>
+                    <input type="text" id="desabilitado" disabled placeholder="este input esta en disabled">
+                    <fieldset>
+                        <legend>:checked</legend>
+                        <label id="quitarespacio">Sexo: </label>
+                        <input type="checkbox" name="sexo" value="h">Hombre
+                        <input type="checkbox" name="sexo" value="m">Mujer
+                    </fieldset>
+                    <fieldset>
+                        <legend>:default</legend>
+                        <input type="radio" name="opcion" value="o1">Opcion 1
+                        <input type="radio" name="opcion" value="o2">Opcion 2
+                        <input type="radio" name="opcion" value="o3">Opcion 3
+                    </fieldset>
+                    <fieldset>
+                        <legend>:in-range / :out-of-range</legend>
+                        <label id="quitarespacio">Edad(1-120): </label>
+                        <input type="number" value="1" placeholder="1" size="10">
+                    </fieldset>
+                    <input type="submit" name="enviar" value="Enviar">
+                </fieldset>
+            </form>
+            <div>
+                <ul>
+                    <li>Primer elemento</li>
+                    <li>Segundo elemento</li>
+                    <li>Tercer elemento</li>
+                    <li>Cuarto elemento</li>
+                </ul>
+                <ul>
+                    <li>Primer elemento</li>
+                    <li>Segundo elemento</li>
+                    <li>Tercer elemento</li>
+                    <li>Cuarto elemento</li>
+                </ul>
+                <ul>
+                    <li>Primer elemento</li>
+                    <li>Segundo elemento</li>
+                    <li>Tercer elemento</li>
+                    <li>Cuarto elemento</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

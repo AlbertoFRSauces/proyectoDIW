@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica 2-8-1 Alberto Fernandez</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: sans-serif;
+                box-sizing: border-box;
+            }
+            ul{
+                list-style: none;
+            }
+            .contenedor{
+                margin: 10px 1rem;
+            }
+            .contenedor li{
+                display: inline-block;
+                margin: 0 0.5rem;
+                width: 128px;
+                height: 48px;
+                line-height: 48px;
+                text-align: center;
+                border-radius: 4px 4px 0 0;
+            }
+            .contenedor a{
+                text-decoration: none;
+                color: black;
+            }
+            .contenedor article{
+                width: 512px;
+                height: 382px;
+                position: absolute;
+            }
+            .contenedor li:nth-of-type(1), article:nth-of-type(1){
+                background-color: rgb(75, 196, 75);
+                z-index: 10;
+            }
+            .contenedor li:nth-of-type(2), article:nth-of-type(2){
+                background-color: rgb(45, 98, 212);
+            }
+            .contenedor li:nth-of-type(3), article:nth-of-type(3){
+                background-color: rgb(206, 70, 199);
+            }
+            .contenedor p{
+                padding: 1rem;
+            }
+            .contenedor article:target{
+                z-index: 100;
+            }
+
+            .contenedor2{
+                margin-top: 412px;
+                position: relative;
+                
+            }
+            .contenedor2 input{
+                display: none;
+            }
+            .contenedor2 label{
+                display: inline-block;
+                width: 128px;
+                background: rgb(120, 120, 251);
+                color: white;
+                text-align: center;
+                line-height: 48px;
+                border-radius: 4px 4px 0 0;
+                margin-right: 0.2rem;
+            }
+            .contenedor2 article{
+                position: absolute;
+                width: 700px;
+                height: 300px;
+                background: rgb(233 217 149);
+                margin-left: -5px;
+                padding: 2rem;
+            }
+            .contenedor2 article:nth-of-type(1){
+                z-index: 10;
+            }
+            .contenedor2 input:checked + label{
+                background-color: darkturquoise;
+            }
+            .contenedor2 input:checked + label + article{
+                z-index: 100;
+            }
+        </style>
+    </head>
+    <body>
+        <div class=contenedor>
+            <ul>
+                <li><a href="#art1">Primera</a></li>
+                <li><a href="#art2">Segunda</a></li>
+                <li><a href="#art3">Tercera</a></li>
+            </ul>
+            <article id="art1">
+                <p>Este es el contenido del 1 PESTAÑA</p>
+            </article>
+            <article id="art2">
+                <p>Este es el contenido de la 2 PESTAÑA</p>
+            </article>
+            <article id="art3">
+                <p>Este es el contenido de la 3 PESTAÑA</p>
+            </article>
+        </div>
+        <div class=contenedor2>
+            <input type="radio" name="rdo" id="rd1">
+            <label for="rd1" id=lb1>Radio 1</label>
+            <article id="art1">
+                <p>Este es el contenido del RADIO 1</p>
+            </article>
+
+            <input type="radio" name="rdo" id="rd2">
+            <label for="rd2" id=lb2>Radio 2</label>
+            <article id="art2">
+                <p>Este es el contenido del RADIO 2</p>
+            </article>
+
+            <input type="radio" name="rdo" id="rd3">
+            <label for="rd3" id=lb3>Radio 3</label>
+            <article id="art3">
+                <p>Este es el contenido del RADIO 3</p>
+            </article>
+
+            <input type="radio" name="rdo" id="rd4">
+            <label for="rd4" id=lb4>Radio 4</label>
+            <article id="art4">
+                <p>Este es el contenido del RADIO 4</p>
+            </article>
+
+            <input type="radio" name="rdo" id="rd5">
+            <label for="rd5" id=lb5>Radio 5</label>
+            <article id="art5">
+                <p>Este es el contenido del RADIO 5</p>
+            </article>
+        </div>
+    </body>
+</html>

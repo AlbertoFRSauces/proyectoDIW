@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica 2-4 Alberto Fernandez</title>
+        <style>
+            *{
+                
+                box-sizing: border-box;
+            }
+            h4{
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .uno p{
+                background-color:silver;
+                width: 200px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin-bottom: 10px;
+            }
+            .uno p:first-child{
+                background-color: royalblue;
+                width: 200px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            .uno p:first-child{
+                background-color:steelblue;
+            }
+            .uno p:last-child{
+                background-color:saddlebrown;
+            }
+            .dos li:nth-child(2){
+                background-color: red;
+                width: 200px;
+            }
+            .dos li:nth-child(4){
+                background-color: #D39A93;
+                width: 200px;
+            }
+            .dos li:nth-last-child(2){
+                background-color: red;
+                width: 200px;
+            }
+            .tres p{
+                background-color:silver;
+                width: 200px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin-bottom: 10px;
+            }
+            .tres p:only-child{
+                background-color: greenyellow;
+            }
+            .cuatro p{
+                background-color:silver;
+                width: 200px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin-bottom: 10px;
+            }
+            .cuatro p:first-of-type{
+                background-color:turquoise;
+            }
+            .cuatro div:last-of-type{
+                background-color: yellow;
+                width: 200px;
+                margin-bottom: 10px;
+            }
+            .cinco p{
+                background-color:silver;
+                width: 200px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin-bottom: 10px;
+            }
+            .cinco p:nth-of-type(2){
+                margin-top: 10px;
+                background-color: #24235D;
+                color: white;
+            }
+            .cinco strong:nth-of-type(1){
+                background-color: #E4AB39;
+                color: white;
+                width: none;
+            }
+            .seis p{
+                background-color:silver;
+                width: 200px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin-bottom: 10px;
+            }
+            .seis span:only-of-type{
+                background-color: saddlebrown;
+            }
+            .cuadrados p{
+                display: inline-block;
+                background-color: purple;
+                width: 150px;
+                height: 90px;
+                margin: 10px;
+                text-align: center;
+                line-height: 90px;
+                font-weight: bold;
+            }
+            /*1) Colorea el cuadro número 6
+            .cuadrados p:nth-child(6){
+                background-color: green;
+            }
+            */
+
+            /*2) Colorea los cuadros 3, 6, 9, 12, 15 y 18
+            .cuadrados p:nth-child(-3n+18){
+                background: green;
+            }
+            */
+
+            /*3) Colorea los cuadros del 8 al 20
+            .cuadrados p:nth-child(n+8):nth-child(-n+20){
+                background: green;
+            }
+            */
+
+            /*4) Colorea los cuadros 5, 8, 11, 14, 17, 20 , 23
+            .cuadrados p:nth-last-child(-3n+21){
+                background-color: green;
+            }
+            */
+
+            /*5) Colorea los cuadros 3 y 12
+            .cuadrados p:nth-child(9n+3):nth-child(-3n+12){
+                background-color: green;
+            }
+            */
+            
+            /*6) Colorea el 12 y el 18
+            .cuadrados p:nth-child(6n+12):nth-child(-3n+18){
+                background-color: green;
+            }
+            */
+            .articulos{
+                width:95vw;
+                height: 100%;
+                margin: 5px auto;
+                border: 2px solid black;
+                padding: 0.5rem;
+            }
+            .articulos li{
+                list-style: none;
+                display: inline-block;
+            }
+            .articulos a{
+                display: block;
+                text-decoration: none;
+                font-family: Impact, sans-serif;
+                color:black;
+                width: 128px;
+                height: 32px;
+                text-align: center;
+                line-height: 32px;;
+            }
+            .articulos li:nth-of-type(1){
+                background: violet;
+            }
+            .articulos li:nth-of-type(2){
+                background:rosybrown;
+            }
+            .articulos li:nth-of-type(3){
+                background-color: orangered;
+            }
+            article a{
+                background: green;
+                border-radius: 0.4rem;
+                color: white;
+            }
+            a:hover{
+                color:white;
+            }
+            article a:hover{
+                background: violet;
+                color:black;
+            }
+            article:nth-of-type(1){
+                background: gray;
+            }
+            article:nth-of-type(2){
+                background: orange            
+            }
+            article:nth-of-type(3){
+                background: cyan;
+            }
+            article:target{
+                font-family: 'Courier New', Courier, monospace;
+                color:yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="uno">
+                <p>Paragraph 1</p>
+                <p>Paragraph 2</p>
+                <p>Paragraph 3</p>
+                <p>Paragraph 4</p>
+            </div>
+            <div class="dos">
+                <ul>
+                    <li><a>Option 1</a></li>
+                    <li><a>Option 2</a></li>
+                    <li><a>Option 3</a></li>
+                    <li><a>Option 4</a></li>
+                    <li><a>Option 5</a></li>
+                    <li><a>Option 6</a></li>
+                </ul>
+            </div>
+            <div class="tres">
+                <p>single paragraph</p>
+            </div>
+
+            <div class="cuatro">
+                <p>Paragraph one</p>
+                <span>text in span</span>
+                <p>Paragraph two2</p>
+                <strong>Text in strong</strong>
+                <div>This is a div</div>
+                <p>Paragraph three</p>
+            </div>
+            <div class="cinco">
+                <p>Paragraph one</p>
+                <span>text in span</span>
+                <p>Paragraph two2</p>
+                <strong>Text in strong</strong>
+                <div>This is a div</div>
+                <p>Paragraph three</p>
+            </div>
+            <div class="seis">
+                <p>Paragraph one</p>
+                <span>Text in span</span>
+                <p>Paragraph two2</p>
+                <p>Paragraph three</p>
+            </div>
+            <div class="cuadrados">
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+                <p>6</p>
+                <p>7</p>
+                <p>8</p>
+                <p>9</p>
+                <p>10</p>
+                <p>11</p>
+                <p>12</p>
+                <p>13</p>
+                <p>14</p>
+                <p>15</p>
+                <p>16</p>
+                <p>17</p>
+                <p>18</p>
+                <p>19</p>
+                <p>20</p>
+                <p>21</p>
+                <p>22</p>
+                <p>23</p>
+                <p>24</p>
+                <p>25</p>
+            </div>
+            <div class="articulos">
+                <div id="Inicio"></div>
+                <ul>
+                    <li><a href="#a1">Primero</a></li>
+                    <li><a href="#a2">Segundo</a></li>
+                    <li><a href="#a3">Tercero</a></li>
+                </ul>
+
+                <article id="a1">
+                    <h2>Articulo UNO</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam deserunt 
+                        adipisci id excepturi aliquam corporis, doloribus laborum in nostrum dolorum voluptatem 
+                        vel, ipsam odio nam expedita a autem. Repellat!
+                    </p>
+                    <a href="#inicio">Volver</a>
+                </article>
+                <article id="a2">
+                    <h2>Articulo DOS</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam deserunt 
+                        adipisci id excepturi aliquam corporis, doloribus laborum in nostrum dolorum voluptatem 
+                        vel, ipsam odio nam expedita a autem. Repellat!
+                    </p>
+                    <a href="#inicio">Volver</a>
+                </article>
+                <article id="a3">
+                    <h2>Articulo TRES</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam deserunt 
+                        adipisci id excepturi aliquam corporis, doloribus laborum in nostrum dolorum voluptatem 
+                        vel, ipsam odio nam expedita a autem. Repellat!
+                    </p>
+                    <a href="#inicio">Volver</a>
+                </article>
+            </div>
+        </div>
+    </body>
+</html>

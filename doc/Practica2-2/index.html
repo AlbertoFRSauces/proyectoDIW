@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 2-2 Alberto Fernandez</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        .container{
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            margin: 0 auto;
+            background: purple;
+        }
+        header{
+            position: relative;
+            height: 120px;
+            width: 100vw;
+            background: #aaa;
+            
+        }
+        header *{
+            position: absolute;
+        }
+        header img:nth-of-type(1){
+            left:15%;
+            top: 10px;
+        }
+        header img:nth-of-type(2){
+            right:15%;
+            top: 10px;
+        }
+        header h1{
+            left: calc(50% - 100px);
+            line-height: 120px;
+            text-align: center;
+        }
+        main{
+            position: relative;
+            width: 100%;
+            height: 70%;
+            float: left;
+        }
+        nav{
+            width: 20%;
+            height: 100vw;
+            float:left;
+            background: crimson;
+            padding: 5px;
+        }
+        ul{
+            list-style: none;
+            background: #ccc;
+        }
+        section{
+            width: 60%;
+            height: 100vw;
+            background: #ccc;
+            float: left;
+            padding: 5px;
+        }
+        h2{
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+        }
+        article:nth-of-type(2) p:nth-of-type(2){
+            text-align: center;
+        }
+        article:nth-of-type(3) p:nth-of-type(2){
+            text-align: center;
+        }
+        aside{
+            width: 20%;
+            height: 100vw;
+            background:crimson;
+            float: right;
+            padding: 5px;
+        }
+        ol{
+            list-style: none;
+        }
+        details{
+            background: #aaa;
+        }
+        aside > p{
+            background: #aaa;
+        }
+        footer{
+            text-align: center;
+            position: fixed;
+            background: #565656;
+            bottom: 0px;
+            width: 100%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="http://picsum.photos/id/199/100/100" alt="Imagen"/>
+            <h1>CABEZERA</h1>
+            <img src="http://picsum.photos/id/200/100/100" alt="Imagen"/>
+        </header>
+        <main>
+           <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Opciones</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+           <section>
+               <article>
+                   <h2>Mi primer articulo</h2>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                       Ipsum mollitia at neque, repellendus quasi officiis molestiae ut. 
+                       Iste omnis totam eveniet? Alias, recusandae officia. 
+                       Laboriosam veritatis sit iste ipsum quas!</p>
+               </article>
+               <article>
+                <h2>Mi segundo articulo</h2>
+                <h3>Subtitulo 2 articulo</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Ipsum mollitia at neque, repellendus quasi officiis molestiae ut. 
+                    Iste omnis totam eveniet? Alias, recusandae officia. 
+                    Laboriosam veritatis sit iste ipsum quas!</p>
+                    <p>comentarios</p>
+               </article>
+               <article>
+                <h2>Mi tercer articulo</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Ipsum mollitia at neque, repellendus quasi officiis molestiae ut. 
+                    Iste omnis totam eveniet? Alias, recusandae officia. 
+                    Laboriosam veritatis sit iste ipsum quas!</p>
+                    <p>comentarios</p>
+               </article>
+           </section>
+        <aside>
+            <p>Aqui tenemos nuestra seccion de links interesantes.</p>
+            <p>Elemento details</p>
+            <details>
+                <summary>Lista datos summary</summary>
+                    <ol>
+                        <li>Dato 1</li>
+                        <li>Dato 2</li>
+                        <li>Dato 3</li>
+                    </ol>
+            </details>
+        </aside>
+        </main>
+        <footer>
+            <p>&#169 Todos los derechos reservados.</p>
+            <p> Progress:
+                <progress id="file" max="100" value="70"> 70% </progress>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
