@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica Animaciones con CSS Alberto Fernandez</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                color: white;
+                font-weight: bold;
+                font-family: sans-serif;
+            }
+            .container{
+                width: 95vw;
+                height: 100vh;
+                margin: 5rem auto;
+                background-color: white;
+                padding: 5rem;
+            }
+            ul{
+                list-style: none;
+                width: 600px;
+                height: 80px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin-bottom: 1rem;
+            }
+            .menu1{
+                background-color: rgb(93, 167, 93);
+            }
+            .menu2{
+                background-color: rgb(47, 108, 177);
+            }
+            .menu1 li{
+                width: 100%;
+                height: 64px;
+                border: 2px 0px solid white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .menu1 li a:hover{
+                border-top: 4px solid white;
+                border-bottom: 4px solid white;
+                padding: 5px;
+                transition: 0.5s all ease-in-out;
+            }
+            .menu2 li{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .menu2 a{
+                display: block;
+                text-decoration: none;
+                padding: 0px 12px;
+            }
+            .menu2 a:hover{
+                color: yellow;
+                padding: 24px 12px;
+                transition: 1s linear;
+                background-color: rgb(243, 242, 242, 0.5);
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <ul class="menu1">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Contact</a></li>
+                <li><a>Shop</a></li>
+            </ul>
+            <ul class="menu2">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Contact</a></li>
+                <li><a>Shop</a></li>
+            </ul>
+        </div>
+    </body>
+</html>

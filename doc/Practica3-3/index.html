@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica Animaciones con CSS Alberto Fernandez</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: sans-serif;
+            }
+            .container{
+                width: 95vw;
+                height: 95vh;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 1rem;
+                place-items: center;
+            }
+            div{
+                max-width: 200px;
+            }
+            img{
+                width: 200px;
+                height: 200px;
+            }
+            #img1{
+                border-radius: 100%;
+                max-width: 100%;
+                clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            }
+            #img2{
+                max-width: 100%;
+                clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+            }
+            #img3{
+                max-width: 100%;
+                clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+            }
+            #img4{
+                clip-path: url(#svgclip1);
+            }
+            #img5{
+                clip-path: url(#svgclip2);
+            }
+            #img6{
+                clip-path: url(#svgclip3);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div id="img1">
+                <img src="http://picsum.photos/id/450/500/5000" alt="imagen 1">
+            </div>
+            <div id="img2">
+                <img src="https://images.unsplash.com/photo-1643832678771-fdd9ed7638ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="imagen 2">
+            </div>
+            <div id="img3">
+                <img src="http://picsum.photos/id/452/500/500" alt="imagen 3">
+            </div>
+            <div id="img4">
+                <img src="http://picsum.photos/id/453/500/500" alt="imagen 4">
+            </div>
+            <div id="img5">
+                <img src="http://picsum.photos/id/454/500/500" alt="imagen 4">
+            </div>
+            <div id="img6">
+                <img src="http://picsum.photos/id/466/500/500" alt="imagen 4">
+            </div>
+            <div id="img4">
+                <svg>
+                    <clipPath id="svgclip1">
+                        <path d="M83.5 15L97.7566 64.0598H143.892L106.568 94.3804L120.824 143.44L83.5 113.12L46.1756 143.44L60.4323 94.3804L23.1079 64.0598H69.2434L83.5 15Z" fill="#0A0A0A"/>
+                    </clipPath>
+                </svg>
+            </div>
+            <div id="img4">
+                <svg>
+                    <clipPath id="svgclip2">
+                        <path d="M121.037 56.448C112.122 49.4953 100.39 45.1684 87.8419 44.2046C75.2938 43.2409 62.7053 45.6998 52.2214 51.1625C41.7375 56.6252 34.0069 64.7537 30.3468 74.1629C26.6866 83.5721 27.3234 93.6799 32.1486 102.764C36.9738 111.848 45.6889 119.347 56.8089 123.982C67.9289 128.617 80.7658 130.102 93.1324 128.183C105.499 126.265 116.63 121.062 124.629 113.462C132.628 105.861 137 96.3326 137 86.5H104.438C104.438 90.458 102.678 94.2935 99.4586 97.3531C96.2387 100.413 91.758 102.507 86.78 103.279C81.8019 104.051 76.6346 103.454 72.1583 101.588C67.6821 99.722 64.174 96.7036 62.2316 93.0469C60.2893 89.3902 60.033 85.3214 61.5063 81.5339C62.9797 77.7463 66.0916 74.4743 70.3117 72.2753C74.5319 70.0764 79.5992 69.0866 84.6503 69.4745C89.7014 69.8625 94.4238 71.6042 98.0127 74.4029L121.037 56.448Z" fill="black"/>
+                    </clipPath>
+                </svg>
+            </div>
+            <div id="img4">
+                <svg>
+                    <clipPath id="svgclip3">
+                        <path d="M53 47C59 35 99 31 99 31H144C144 31 112 39 99 47C86 55 80 56 71 70C62 84 62 90 62 103C62 116 62 155 62 155C62 155 39 115 38 98C37 81 47 59 53 47Z" fill="black"/>
+                    </clipPath>
+                </svg>
+            </div>
+        </div>
+    </body>
+</html>

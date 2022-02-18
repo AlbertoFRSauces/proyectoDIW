@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica Animaciones con CSS Alberto Fernandez</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .container{
+                width: 500px;
+                height: 300px;
+                margin: 5rem auto;
+                background-image: url("https://picsum.photos/id/450/500/300");
+                border: 4px red solid;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+            }
+            .capa2, h2, p{
+                position: absolute;
+                right: -125%;
+                transition: 1s right linear;
+            }
+            h2{
+                top: 140px;
+            }
+            p{
+                top: 160px;
+            }
+            .capa2{
+                width: 496px;
+                height: 296px;
+                background-color: rgba(255, 0, 0, 0.5);
+            }
+            .container:hover .capa2{
+                transition: 1s linear 0s;
+                right: 0px;
+            }
+            .container:hover h2{
+                transition: 1s linear 1s;
+                right: 200px;
+            }
+            .container:hover p{
+                transition: 1s linear 2s;
+                right: 175px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="capa2">
+            </div>
+            <h2>Titulo</h2>
+            <p>Esto es una prueba</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica Animaciones con CSS Alberto Fernandez</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                color: white;
+                font-weight: bold;
+                font-family: sans-serif;
+                --v:0s;
+            }
+            .container1{
+                width: 500px;
+                height: 400px;
+                background-color: grey;
+                margin: 2rem auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .helice1{
+                width: 50px;
+                height: 50px;
+                border-radius: 8px;
+                background: red;
+                box-shadow: 120px 0px red,
+                            -120px 0px red,
+                            0px 120px yellow,
+                            0px -120px yellow;
+            }
+            .helice1:hover{
+                transition: 1s transform linear;
+                transform: rotate(90deg);
+            }
+            .container2{
+                width: 500px;
+                height: 700px;
+                background-color: grey;
+                margin: 2rem auto;
+                display: flex;
+                align-items: center;
+                flex-flow: column;
+            }
+            .helice2{
+                margin-top: 200px;
+                width: 50px;
+                height: 50px;
+                border-radius: 8px;
+                background: red;
+                box-shadow: 120px 0px red,
+                            -120px 0px red,
+                            0px 120px yellow,
+                            0px -120px yellow;
+                animation: girar var(--v) linear infinite;
+            }
+            @keyframes girar {
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+            .select{
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+                width: 70%;
+                justify-content: space-between;
+            }
+            label{
+                font-size: 1.5rem;
+                border: 2px solid yellow;
+                height: 30px;
+                margin: 10px;
+            }
+            h1{
+                margin-top: 10px;
+            }
+            #x1:checked ~ .helice2{
+                --v:3s;
+            }
+            #x2:checked ~ .helice2{
+                --v:2s;
+            }
+            #x3:checked ~ .helice2{
+                --v:1s;
+            }
+            #stop:checked ~ .helice2{
+                --v:0s;
+            }
+            input{
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container1">
+            <div class="helice1">
+                
+            </div>
+        </div>
+        
+        <div class="container2">
+            <h1>SELECIONE VELOCIDAD</h1>
+            <div class="select">
+                <input type="radio" name="vl" id="x1">
+                <label for="x1">1x</label>
+                <input type="radio" name="vl" id="x2">
+                <label for="x2">2x</label>
+                <input type="radio" name="vl" id="x3">
+                <label for="x3">3x</label>
+                <input type="radio" name="vl" id="stop" checked>
+                <label for="stop">STOP</label>
+                <div class="helice2"></div>
+            </div>
+        </div>
+    </body>
+</html>

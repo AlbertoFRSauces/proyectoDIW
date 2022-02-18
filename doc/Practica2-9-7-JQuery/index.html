@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica 2-9-6 Alberto Fernandez</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: Verdana, sans-serif;
+                --clrGrande: orange;
+                --clrCarousel: lightblue;
+                --clrLabel: violet;
+                --clrBoton: black;
+            }
+            .carousel{
+                position: relative;
+                background-color: var(--clrCarousel);
+                width: 90%;
+                height: 50vh;
+                margin: auto;
+                overflow: hidden;
+            }
+            .carGrande{
+                width: 400%;
+                height: 100%;
+                background-color: var(--clrGrande);
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+                transform: translateX(0%);
+                transition: all 0.5s ease;
+            }
+            .carGrande img{
+                flex-basis: calc(100% / 4);
+                object-fit: cover;
+            }
+            .prev, .next{
+                position: absolute;
+                width: 24px;
+                height: 24px;
+                background: gray;
+                top: 50%;
+                transform: translateY(-50%);
+                border-radius: 50%;
+                line-height: 22px;
+                text-align: center;
+                font-size: 22px;
+                align-items: 22px;
+                font-weight: bold;
+            }
+            .prev:hover, .next:hover{
+                background: white;
+                cursor: pointer;
+            }
+            .next{
+                right: 8px;
+            }
+            .prev{
+                left: 8px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="carousel">
+            <div class="carGrande">
+                <img src="http://picsum.photos/id/905/800/800" alt="imagen1">
+                <img src="http://picsum.photos/id/906/800/800" alt="imagen2">
+                <img src="http://picsum.photos/id/907/800/800" alt="imagen3">
+                <img src="http://picsum.photos/id/908/800/800" alt="imagen5">
+            </div>
+            <div class="prev">&#60;</div>
+            <div class="next">&#62;</div>
+        </div>
+        <script src="jquery-3.6.0.min.js"></script>
+        <script>
+            $(function(){
+                var fnext = function(){
+                    $('.carGrande img:nth-of-type(1)').insertAfter($
+                    ('.carGrande img:nth-of-type(4)'));
+                }
+                var fprev = function(){
+                    $('.carGrande img:last-child').insertBefore($
+                    ('.carGrande img:first-child'));
+                }
+                $('.next').click(fnext);
+                $('.prev').click(fprev);
+            });
+        </script>
+    </body>
+</html>

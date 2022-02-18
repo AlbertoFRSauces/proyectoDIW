@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica Animaciones con CSS Alberto Fernandez</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: sans-serif;
+            }
+            .container{
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+            .h_iframe iframe {
+                width:100%;
+                height: 1080px;
+            }
+            .h_iframe {
+                width: 100%;
+                height: 1080px;
+            }
+            .titulo{
+                background-color: grey;
+                width: 100%;
+                height: 50px;
+                font-size: 20px;
+                font-family: 'Courier New', Courier, monospace;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <p class="titulo">IMAGENES</p>
+            <picture>
+                <source media="(min-width: 980px)" srcset="imagenes/lake.jpg" alt="imagenlago">
+                <source media="(min-width: 780px)" srcset="imagenes/mountain.jpg" alt="imagenmontaña">
+                <source media="(min-width: 580px)" srcset="imagenes/camion.jpg" alt="imagencamion">
+                <img src="graficos/por_si_acaso.jpg" alt="Si no se cumple ninguna condición" width="1920" height="620">
+            </picture>
+            <p class="titulo">VIDEO</p>
+            <div class="h_iframe">
+                <iframe width="auto" height="auto" src="https://www.youtube.com/embed/8TBvHsJA-pQ" title="YouTube video player" frameborder="0" allow="autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p class="titulo">AUDIO</p>
+            <div>
+                <audio controls>
+                    <source src="imagenes/audio.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+    </body>
+</html>
