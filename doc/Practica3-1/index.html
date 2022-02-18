@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica Animaciones con CSS Alberto Fernandez</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: sans-serif;
+            }
+            .container{
+                width: 100vw;
+                height: 100vh;
+            }
+            img{
+                max-width: 100%;
+                height: 100%;
+            }
+            .wrapper{
+                padding: 1rem;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                gap: 2rem;
+                min-width: 500px;
+                max-height: 800px;
+                margin: auto;
+            }
+            .img{
+                position: relative;
+                overflow: hidden;
+                transition: all 0.5s linear;
+                height: 600px;
+            }
+            .imgL{
+                position: absolute;
+                max-width: 80px;
+                height: auto;
+                left: 0;
+                top: -200px;
+                transition: all 0.5s linear;
+                padding: 8px;
+            }
+            .txtL{
+                position: absolute;
+                left: 0;
+                bottom: -200px;
+                color: white;
+                font-weight: bold;
+                font-size: 1.1rem;
+                transition: all 0.5s linear;
+                max-width: 150px;
+                padding: 8px;
+            }
+            .img:hover  .imgL{
+                top: 10px;
+            }
+            .img:hover > .txtL{
+                bottom: 10px;
+            }
+            .titulo{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="titulo">IMAGENES CON LICENCIA</h1>
+            <div class="wrapper">
+                <div class="img">
+                    <img src="img/mono1.png" alt="mono1" class="img">
+                    <a class="imgL" rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img href="http://creativecommons.org/licenses/by/4.0/" src="img/creativecommons.png" ></a>
+                    <p class="txtL">Autor: Alberto Fernandez<a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Fuente: https://opensea.io/collection/boredapeyachtclub</a></p>
+                </div>
+                <div class="img">
+                    <img src="img/mono2.png" alt="mono1" class="img">
+                    <a rel="license" href="https://es.wikipedia.org/wiki/Derecho_de_autor" target="_blank"><img src="img/copyright.png" class="imgL"></a>
+                    <p class="txtL">Autor: Alberto Fernandez<a rel="license" href="https://es.wikipedia.org/wiki/Derecho_de_autor" target="_blank">Fuente: https://opensea.io/collection/boredapeyachtclub</a></p>
+                </div>
+                <div class="img">
+                    <img src="img/mono3.png" alt="mono1" class="img">
+                    <a rel="license" href="https://es.wikipedia.org/wiki/Copyleft" target="_blank"><img src="img/copyleft.png" class="imgL"></a>
+                    <p class="txtL">Autor: Alberto Fernandez<a rel="license" href="https://es.wikipedia.org/wiki/Copyleft" target="_blank">Fuente: https://opensea.io/collection/boredapeyachtclub</a></p>
+                </div>
+                <div class="img">
+                    <img src="img/mono4.png" alt="mono1" class="img">
+                    <a rel="license" href="https://www.coloriuris.net/es:index" target="_blank"><img src="img/coloriuris.png" class="imgL"></a>
+                    <p class="txtL">Autor: Alberto Fernandez<a rel="license" href="https://www.coloriuris.net/es:index" target="_blank">Fuente: https://opensea.io/collection/boredapeyachtclub</a></p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

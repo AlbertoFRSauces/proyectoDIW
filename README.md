@@ -5,10 +5,10 @@
 
 **Fecha Inicio Proyecto: 15/10/2021**
 
-**Ultima Actualización: 12/12/2021**
+**Ultima Actualización: 18/02/2022**
 
 ## Descripción 
-Estructura del proyectoDIW
+Estructura del proyectoDIW que contiene todas las practicas realizadas durante el curso
 
 ## Front end
 - HTML

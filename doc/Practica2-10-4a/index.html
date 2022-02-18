@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica Grid Alberto Fernandez</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .container {
+                margin: auto;
+                background-color: white;
+                display: grid;
+                grid-template-columns: 100px 100px 200px;
+                grid-template-rows: repeat(5, 60px);
+                grid-auto-flow: column;
+            }
+            .container .caja1{
+                background-color: cadetblue;
+            }
+            .container .caja2{
+                background-color:seagreen;
+            }
+            .container2{
+                margin-top: 10px;
+                background-color: white;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                height: 300px;
+                width: 400px;
+            }
+            .container2 .caja1{
+                background-color: cadetblue;
+                height: 60px;
+                width: 100px;
+            }
+            .container2 .caja2{
+                background-color:seagreen;
+                height: 60px;
+                width: 100px;
+            }
+            .container2 .caja1:nth-last-of-type(2){
+                width: 200px;
+            }
+            .container2 .caja2:nth-last-of-type(1){
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="caja1">1</div>
+            <div class="caja2">2</div>
+            <div class="caja1">3</div>
+            <div class="caja2">4</div>
+            <div class="caja1">5</div>
+            <div class="caja2">6</div>
+            <div class="caja1">7</div>
+            <div class="caja2">8</div>
+            <div class="caja1">9</div>
+            <div class="caja2">10</div>
+            <div class="caja1">11</div>
+            <div class="caja2">12</div>
+        </div>
+        <div class="container2">
+            <div class="caja1">1</div>
+            <div class="caja2">2</div>
+            <div class="caja1">3</div>
+            <div class="caja2">4</div>
+            <div class="caja1">5</div>
+            <div class="caja2">6</div>
+            <div class="caja1">7</div>
+            <div class="caja2">8</div>
+            <div class="caja1">9</div>
+            <div class="caja2">10</div>
+            <div class="caja1">11</div>
+            <div class="caja2">12</div>
+        </div>
+    </body>
+</html>

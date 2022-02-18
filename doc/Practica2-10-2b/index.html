@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica Grid Alberto Fernandez</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+                width: 95vw;
+                height: 95vh;
+                display: grid;
+                margin: auto;
+                /*grid-template-columns: 25fr 50fr 25fr;*/
+                /*grid-auto-rows: repeat(3, 1fr);*/
+                grid-template-areas:
+                                "h h h"
+                                "nav main aside"
+                                "nav ft ft";
+            }
+            header{
+                background-color: chocolate;
+                margin: 2.5px;
+                grid-area:h
+            }
+            nav{
+                background-color: rgb(75, 119, 185);
+                margin: 2.5px;
+                grid-area:nav
+            }
+            main{
+                background-color: rgb(231, 119, 67);
+                margin: 2.5px;
+                grid-area:main
+            }
+            aside{
+                background-color: rgb(53, 99, 53);
+                margin: 2.5px;
+                grid-area:aside
+            }
+            footer{
+                background-color: grey;
+                margin: 2.5px;
+                grid-area:ft
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header class="xl-12">Header</header>
+            <nav>Nav</nav>
+            <main>Main</main>
+            <aside>aside</aside>
+            <footer>footer</footer>
+        </div>
+    </body>
+</html>

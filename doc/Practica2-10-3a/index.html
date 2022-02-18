@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica Grid Alberto Fernandez</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .container {
+                width: 95vw;
+                height: 95vh;
+                margin: auto;
+                background-color: #ddd;
+            }
+            h1{
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+            img{
+                max-height: 100%;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .galeria{
+                display: grid;
+                min-width: 350px;
+                max-width: 1900px;
+                grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+                grid-auto-rows: 400px;
+                gap: 0.7rem;
+            }
+            .card{
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 0.5fr 1.5fr 8fr;
+                overflow: hidden;
+                
+            }
+            .card img:hover{
+                transform: scale(1.2);
+            }
+            .card:nth-child(1){
+                background: rgb(156, 156, 156);
+            }
+            .card:nth-child(2){
+                background:indianred;
+            }
+            .card:nth-child(3){
+                background: olive;
+            }
+            .card:nth-child(4){
+                background:darkcyan;
+            }
+            .card:nth-child(5){
+                background:rgb(44, 44, 151) ;
+            }
+            .card:nth-child(6){
+                background:rgb(107, 56, 133);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Galeria de tarjetas con imagen</h1>
+            <div class="galeria">
+                <div class="card">
+                    <h3>El titulo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error veritatis tempore sint, numquam tempora sed! Repellat ab quaerat impedit id eligendi hic facere eum, mollitia in, minima porro, assumenda maiores.</p>
+                    <img src="http://picsum.photos/id/160/300/300">
+                </div>
+                <div class="card">
+                    <h3>El titulo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error veritatis tempore sint, numquam tempora sed! Repellat ab quaerat impedit id eligendi hic facere eum, mollitia in, minima porro, assumenda maiores.</p>
+                    <img src="http://picsum.photos/id/161/300/300">
+                </div>
+                <div class="card">
+                    <h3>El titulo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error veritatis tempore sint, numquam tempora sed! Repellat ab quaerat impedit id eligendi hic facere eum, mollitia in, minima porro, assumenda maiores.</p>
+                    <img src="http://picsum.photos/id/162/300/300">
+                </div>
+                <div class="card">
+                    <h3>El titulo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error veritatis tempore sint, numquam tempora sed! Repellat ab quaerat impedit id eligendi hic facere eum, mollitia in, minima porro, assumenda maiores.</p>
+                    <img src="http://picsum.photos/id/163/300/300">
+                </div>
+                <div class="card">
+                    <h3>El titulo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error veritatis tempore sint, numquam tempora sed! Repellat ab quaerat impedit id eligendi hic facere eum, mollitia in, minima porro, assumenda maiores.</p>
+                    <img src="http://picsum.photos/id/164/300/300">
+                </div>
+                <div class="card">
+                    <h3>El titulo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error veritatis tempore sint, numquam tempora sed! Repellat ab quaerat impedit id eligendi hic facere eum, mollitia in, minima porro, assumenda maiores.</p>
+                    <img src="http://picsum.photos/id/165/300/300">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

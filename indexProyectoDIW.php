@@ -440,12 +440,558 @@
                     </tr>
                 </table>
             </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-9-7/PR-2-9-7-carousel-con-flex.pdf" target="_blank"><figcaption class="titulofoto">Practica 2-9-7</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-9-7/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica2-9-7.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-9-7-JQuery/PR-2-9-7-carousel-con-flex.pdf" target="_blank"><figcaption class="titulofoto">Practica 2-9-7 JQuery</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-9-7-JQuery/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica2-9-7jquery.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-10-1a/PR_2_10_1_Grid_I.pdf" target="_blank"><figcaption class="titulofoto">Practica 2-10-1a</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-10-1a/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica2-10-1a.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-10-1b/PR_2_10_1_Grid_I.pdf" target="_blank"><figcaption class="titulofoto">Practica 2-10-1b</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-10-1b/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica2-10-1b.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-10-2a/PR_2_10_2_Grid_II.pdf" target="_blank"><figcaption class="titulofoto">Practica 2-10-2a</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-10-2a/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica2-10-2a.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-10-2b/PR_2_10_2_Grid_II.pdf" target="_blank"><figcaption class="titulofoto">Practica 2-10-2b</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-10-2b/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica2-10-2b.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-10-3a/PR_2_10_3_GaleriaTarjetas.pdf" target="_blank"><figcaption class="titulofoto">Practica 2-10-3a</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-10-3a/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica2-10-3a.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-10-3b/PR_2_10_3_GaleriaTarjetas.pdf" target="_blank"><figcaption class="titulofoto">Practica 2-10-3b</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-10-3b/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica2-10-3b.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-10-4a/PRUEBA_2_10_4_Grid_A.pdf" target="_blank"><figcaption class="titulofoto">Practica 2-10-4a</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-10-4a/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica2-10-4a.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-10-4b/PRUEBA_2_10_4_Grid_B.pdf" target="_blank"><figcaption class="titulofoto">Practica 2-10-4b</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-10-4b/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica2-10-4b.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-10-5/PR_2_10_Grid_Texto - alumnos.pdf" target="_blank"><figcaption class="titulofoto">Practica 2-10-5</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-10-5/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica2-10-5.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-11-1a/PR-2-11-1-Transiciones I.pdf" target="_blank"><figcaption class="titulofoto">Practica 2-11-1a</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-11-1a/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica2-11-1a.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-11-1b/PR-2-11-1-Transiciones I.pdf" target="_blank"><figcaption class="titulofoto">Practica 2-11-1b</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-11-1b/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica2-11-1b.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-11-2/PR-2-11-2- Transiciones II.pdf" target="_blank"><figcaption class="titulofoto">Practica 2-11-2</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-11-2/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica2-11-2.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-11-3/PR-2-11-3Transiciones III.pdf" target="_blank"><figcaption class="titulofoto">Practica 2-11-3</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-11-3/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica2-11-3.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-11-4/PR-2-11-4 Transiciones IV.pdf" target="_blank"><figcaption class="titulofoto">Practica 2-11-4</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-11-4/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica2-11-4.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-11-5a/PR-2-11-5-Animation I.pdf" target="_blank"><figcaption class="titulofoto">Practica 2-11-5a</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-11-5a/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica2-11-5a.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-11-5b/PR-2-11-5-Animation I.pdf" target="_blank"><figcaption class="titulofoto">Practica 2-11-5b</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-11-5b/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica2-11-5b.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-11-6/PR-2-11-6-Animation II.pdf" target="_blank"><figcaption class="titulofoto">Practica 2-11-6</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-11-6/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica2-11-6.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a><figcaption class="titulofoto">Practica 2-11-reloj</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica2-11-reloj/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica2-11-reloj.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica3-1/PR-3-1 Licencias.pdf" target="_blank"><figcaption class="titulofoto">Practica 3-1</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica3-1/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica3-1.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica3-2/PR-3-2-Picture-Video-Audio.pdf" target="_blank"><figcaption class="titulofoto">Practica 3-2</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica3-2/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica3-2.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica3-3/PR-3-3 clip-path.pdf" target="_blank"><figcaption class="titulofoto">Practica 3-3</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica3-3/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica3-3.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica3-4-mascara/PR-3-4-3-mascaraTexto.pdf" target="_blank"><figcaption class="titulofoto">Practica 3-4-mascara</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica3-4-mascara/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica3-4-mascara.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica3-filtros/PR-3-_-filtros.pdf" target="_blank"><figcaption class="titulofoto">Practica 3-filtros</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/Practica3-filtros/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPractica3-filtros.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="primerasfilas">
+                <table class="tabla">
+                    <tr class="bordetitulo">
+                        <td>
+                            <figure>
+                                <a><figcaption class="titulofoto">Practica Calendario Grid</figcaption></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/doc/PracticagridCalendario/index.html" target="_blank"><img src="../webroot/css/img/play.png" class="imageplay" alt="Botonplay"/></a>
+                            </figure>
+                        </td>
+                        <td class="cajaimagen">
+                            <figure>
+                                <a href="../proyectoDIW/mostrarcodigo/muestraPracticaCalendarioGrid.php"><img src="../webroot/css/img/codigo.png" class="imagecodigo" alt="Botoncodigo"/></a>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </section>
         </main>
         <footer class="piepagina">
             <a href="../index.php"><img src="../proyectoDIW/webroot/css/img/atras.png" class="imageatras" alt="IconoAtras" /></a>
             <a href="https://github.com/AlbertoFRSauces/proyectoDIW" target="_blank"><img href="https://github.com/AlbertoFRSauces/proyectoDIW" target="_blank" src="../proyectoDIW/webroot/css/img/github.png" class="imagegithub" alt="IconoGitHub" /></a>
             <p><a>&copy;</a><a href="http://daw207.ieslossauces.es/index.php">Alberto Fernández Ramírez</a> 29/09/2021 Todos los derechos reservados.</p>
-            <p>Ultima actualización: 12/12/2021 01:39 - Release 2.0</p>
+            <p>Ultima actualización: 18/02/2022 23:39 - Release 3.0</p>
         </footer>
     </body>
 </html>
